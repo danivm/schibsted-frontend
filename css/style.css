@@ -1,0 +1,39 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600);
+/* line 3, /Users/Daniel/projects/schibsted-frontend/sass/style.scss */
+body {
+  font-family: "Open Sans";
+}
+
+/* line 5, /Users/Daniel/projects/schibsted-frontend/sass/style.scss */
+body header {
+  text-align: center;
+}
+
+/* line 8, /Users/Daniel/projects/schibsted-frontend/sass/style.scss */
+body dl {
+  width: 80%;
+  margin: 0 auto;
+  box-shadow: 0px 0px 10px #888888;
+}
+
+/* line 12, /Users/Daniel/projects/schibsted-frontend/sass/style.scss */
+body dl dt {
+  background-color: #0253A0;
+  padding: 15px;
+  color: white;
+  border-bottom: 1px solid white;
+}
+
+/* line 18, /Users/Daniel/projects/schibsted-frontend/sass/style.scss */
+body dl dd {
+  transition: max-height 0.5s;
+  max-height: 0;
+  overflow: hidden;
+}
+
+/* line 22, /Users/Daniel/projects/schibsted-frontend/sass/style.scss */
+body dl dd.active {
+  max-height: 300px;
+}
+
+/*# sourceMappingURL=../css/style.map */

@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "../sass/style.css",
+	"sources": [
+		"../sass/style.scss"
+	],
+	"sourcesContent": [
+		"@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600);\n\nbody {\n\tfont-family: \"Open Sans\";\n\theader {\n\t\ttext-align: center;\n\t}\n\tdl {\n\t\twidth: 80%;\n\t\tmargin: 0 auto;\n\t\tbox-shadow: 0px 0px 10px #888888;\n\t\tdt {\n\t\t\tbackground-color: #0253A0;\n\t\t\tpadding: 15px;\n\t\t\tcolor: white;\n\t\t\tborder-bottom: 1px solid white;\n\t\t}\n\t\tdd {\n\t\t\ttransition: max-height 0.5s;\n\t\t    max-height: 0;\n\t\t    overflow: hidden;\n\t\t\t&.active {\n    \t\t\tmax-height: 300px;\n\t\t\t}\n\t\t}\n\t\t\n\t}\n}"
+	],
+	"mappings": "AAAA,OAAO,CAAC,iEAAI;;AAEZ,AAAA,IAAI,CAAC;EACJ,WAAW,EAAE,WAAY;CAwBzB;;;AAzBD,AAEC,IAFG,CAEH,MAAM,CAAC;EACN,UAAU,EAAE,MAAO;CACnB;;;AAJF,AAKC,IALG,CAKH,EAAE,CAAC;EACF,KAAK,EAAE,GAAI;EACX,MAAM,EAAE,MAAO;EACf,UAAU,EAAE,oBAAqB;CAgBjC;;;AAxBF,AASE,IATE,CAKH,EAAE,CAID,EAAE,CAAC;EACF,gBAAgB,EAAE,OAAQ;EAC1B,OAAO,EAAE,IAAK;EACd,KAAK,EAAE,KAAM;EACb,aAAa,EAAE,eAAgB;CAC/B;;;AAdH,AAeE,IAfE,CAKH,EAAE,CAUD,EAAE,CAAC;EACF,UAAU,EAAE,eAAgB;EACzB,UAAU,EAAE,CAAE;EACd,QAAQ,EAAE,MAAO;CAIpB;;;AAtBH,AAeE,IAfE,CAKH,EAAE,CAUD,EAAE,AAIA,OAAO,CAAC;EACL,UAAU,EAAE,KAAM;CACrB",
+	"names": []
+}
