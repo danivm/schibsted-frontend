@@ -1,4 +1,5 @@
-const elements = document.querySelectorAll("dt");
+const elements = document.querySelectorAll(".MyAccordion-title");
+const url = 'https://quotes.rest/qod.json?category=inspire';
 
 [].map.call(elements,(elem)=>{
 	elem.addEventListener("click", collapse)
@@ -6,21 +7,20 @@ const elements = document.querySelectorAll("dt");
 
 function collapse(){
 	[].map.call(elements,(elem)=>{
-		elem.nextElementSibling.className = ""
+		elem.nextElementSibling.className = "MyAccordion-content"
 	})
-	this.nextElementSibling.className = "active";
+	this.nextElementSibling.className = "MyAccordion-content--active";
 }
 
 function showQuote(data) {
-	const oData = JSON.parse(data) 
-	if(oData.contents){
-		const quote = oData.contents.quotes[0].quote
-		const author = oData.contents.quotes[0].author
+	if(data.contents){
+		const quote = data.contents.quotes[0].quote
+		const author = data.contents.quotes[0].author
 		document.querySelector('.quote').innerHTML = quote
 		document.querySelector('.author').innerHTML = author
 	} else {
-		document.querySelector('.quote').innerHTML = oData.error.message
+		document.querySelector('.quote').innerHTML = data.error.message
 	}
 }
 
-getData(showQuote)
+getData(url, showQuote)

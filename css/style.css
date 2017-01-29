@@ -10,14 +10,14 @@ body header {
 }
 
 /* line 8, /Users/Daniel/projects/schibsted-frontend/sass/style.scss */
-body dl {
+body .MyAccordion {
   width: 80%;
   margin: 0 auto;
   box-shadow: 0px 0px 10px #888888;
 }
 
 /* line 12, /Users/Daniel/projects/schibsted-frontend/sass/style.scss */
-body dl dt {
+body .MyAccordion-title {
   background-color: #0253A0;
   padding: 15px;
   color: white;
@@ -25,15 +25,19 @@ body dl dt {
 }
 
 /* line 18, /Users/Daniel/projects/schibsted-frontend/sass/style.scss */
-body dl dd {
-  transition: max-height 0.5s;
-  max-height: 0;
+body .MyAccordion-content, body .MyAccordion-content--active {
+  height: 0px;
   overflow: hidden;
+  -webkit-transition: height 0.5s ease-in-out;
+  -moz-transition: height 0.5s ease-in-out;
+  -o-transition: height 0.5s ease-in-out;
+  -ms-transition: height 0.5s ease-in-out;
+  transition: height 0.5s ease-in-out;
 }
 
-/* line 22, /Users/Daniel/projects/schibsted-frontend/sass/style.scss */
-body dl dd.active {
-  max-height: 300px;
+/* line 26, /Users/Daniel/projects/schibsted-frontend/sass/style.scss */
+body .MyAccordion-content--active {
+  height: 200px;
 }
 
 /*# sourceMappingURL=../css/style.map */

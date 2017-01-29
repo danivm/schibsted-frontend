@@ -1,8 +1,10 @@
-function getData(callback) {
-  let xhr = new XMLHttpRequest();
-  xhr.onload = function () { 
-    callback(this.responseText) 
-  };
-  xhr.open("GET", "https://quotes.rest/qod.json?category=inspire", true);
-  xhr.send();
+function getData(url, callback) {
+	fetch(url)
+		.then(function(response) {
+			return response.json()
+		}).then(function(json) {
+			callback(json)
+		}).catch(function(ex) {
+			console.log('parsing failed', ex)
+		})
 }
