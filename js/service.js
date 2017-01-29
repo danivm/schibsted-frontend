@@ -3,6 +3,6 @@ function getData(callback) {
   xhr.onload = function () { 
     callback(this.responseText) 
   };
-  xhr.open("GET", "http://quotes.rest/qod.json?category=inspire", true);
+  xhr.open("GET", "https://quotes.rest/qod.json?category=inspire", true);
   xhr.send();
 }
