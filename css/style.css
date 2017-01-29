@@ -27,6 +27,7 @@ body .MyAccordion-title {
 /* line 18, /Users/Daniel/projects/schibsted-frontend/sass/style.scss */
 body .MyAccordion-content, body .MyAccordion-content--active {
   height: 0px;
+  margin-right: 20px;
   overflow: hidden;
   -webkit-transition: height 0.5s ease-in-out;
   -moz-transition: height 0.5s ease-in-out;
@@ -35,7 +36,7 @@ body .MyAccordion-content, body .MyAccordion-content--active {
   transition: height 0.5s ease-in-out;
 }
 
-/* line 26, /Users/Daniel/projects/schibsted-frontend/sass/style.scss */
+/* line 27, /Users/Daniel/projects/schibsted-frontend/sass/style.scss */
 body .MyAccordion-content--active {
   height: 200px;
 }
