@@ -1,16 +1,6 @@
-const elements = document.querySelectorAll(".MyAccordion-title");
-const url = 'https://quotes.rest/qod.json?category=inspire';
+myAccordion.init()
 
-[].map.call(elements,(elem)=>{
-	elem.addEventListener("click", collapse)
-})
-
-function collapse(){
-	[].map.call(elements,(elem)=>{
-		elem.nextElementSibling.className = "MyAccordion-content"
-	})
-	this.nextElementSibling.className = "MyAccordion-content--active";
-}
+getData('https://quotes.rest/qod.json?category=inspire', showQuote)
 
 function showQuote(data) {
 	if(data.contents){
@@ -23,4 +13,3 @@ function showQuote(data) {
 	}
 }
 
-getData(url, showQuote)

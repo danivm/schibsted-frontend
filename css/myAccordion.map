@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "../sass/myAccordion.css",
+	"sources": [
+		"../sass/myAccordion.scss"
+	],
+	"sourcesContent": [
+		".MyAccordion {\n\twidth: 80%;\n\tmargin: 0 auto;\n\tbox-shadow: 0px 0px 10px #888888;\n\t&-title {\n\t\tbackground-color: #0253A0;\n\t\tpadding: 15px;\n\t\tcolor: white;\n\t\tborder-bottom: 1px solid white;\n\t}\n\t&-content {\n\t    height: 0px;\n\t    margin-right: 20px;\n\t    overflow: hidden;\n\t\t-webkit-transition: height 0.5s ease-in-out;\n\t\t-moz-transition: height 0.5s ease-in-out;\n\t\t-o-transition: height 0.5s ease-in-out;\n\t\t-ms-transition: height 0.5s ease-in-out;\n\t\ttransition: height 0.5s ease-in-out;\n\t\t&--active{\n\t\t\t@extend .MyAccordion-content;\n\t\t\theight: 200px;\n\t\t}\n\t}\n\t\n}"
+	],
+	"mappings": ";AAAA,AAAA,YAAY,CAAC;EACZ,KAAK,EAAE,GAAI;EACX,MAAM,EAAE,MAAO;EACf,UAAU,EAAE,oBAAqB;CAsBjC;;;AAzBD,AAAA,kBAAY,CAIH;EACP,gBAAgB,EAAE,OAAQ;EAC1B,OAAO,EAAE,IAAK;EACd,KAAK,EAAE,KAAM;EACb,aAAa,EAAE,eAAgB;CAC/B;;;AATF,AAAA,oBAAY,EAAZ,AAAA,4BAAY,CAUD;EACN,MAAM,EAAE,GAAI;EACZ,YAAY,EAAE,IAAK;EACnB,QAAQ,EAAE,MAAO;EACpB,kBAAkB,EAAE,uBAAwB;EAC5C,eAAe,EAAE,uBAAwB;EACzC,aAAa,EAAE,uBAAwB;EACvC,cAAc,EAAE,uBAAwB;EACxC,UAAU,EAAE,uBAAwB;CAKpC;;;AAvBF,AAAA,4BAAY,CAmBD;EAER,MAAM,EAAE,KAAM;CACd",
+	"names": []
+}

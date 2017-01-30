@@ -1,4 +1,3 @@
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600);
 /* line 1, /Users/Daniel/projects/schibsted-frontend/sass/myAccordion.scss */
 .MyAccordion {
   width: 80%;
@@ -31,14 +30,4 @@
   height: 200px;
 }
 
-/* line 4, /Users/Daniel/projects/schibsted-frontend/sass/style.scss */
-body {
-  font-family: "Open Sans";
-}
-
-/* line 6, /Users/Daniel/projects/schibsted-frontend/sass/style.scss */
-body header {
-  text-align: center;
-}
-
-/*# sourceMappingURL=../css/style.map */
+/*# sourceMappingURL=../css/myAccordion.map */
