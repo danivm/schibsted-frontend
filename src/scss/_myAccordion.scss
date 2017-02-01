@@ -7,11 +7,16 @@
 		padding: 15px;
 		color: white;
 		border-bottom: 1px solid white;
+		&:hover {
+			cursor: pointer;
+		}
 	}
 	&-content {
 	    height: 0px;
 	    margin-right: 20px;
 	    overflow: hidden;
+	    padding: 0 10px;
+    	margin: 0;
 		-webkit-transition: height 0.5s ease-in-out;
 		-moz-transition: height 0.5s ease-in-out;
 		-o-transition: height 0.5s ease-in-out;
