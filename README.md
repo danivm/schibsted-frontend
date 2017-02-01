@@ -10,7 +10,7 @@ Clone this repo
 
 ```
 git clone git@github.com:danivm/schibsted-frontend.git
-cd accordion-component
+cd schibsted-frontend
 ```
 
 Build `public` version and launch local server by doing
