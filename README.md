@@ -4,6 +4,8 @@
 
 This repo contains one possible solution for the exercise suggested at https://github.com/scm-spain/Frontend-Exercise
 
+gh-pages -> https://danivm.github.io/schibsted-frontend/
+
 ### Instalation
 
 Clone this repo
